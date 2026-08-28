@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siti Aulya Azahra - Landing Page Pribadi</title>
+  <meta name="description" content="Landing page pribadi Siti Aulya Azahra, mahasiswa Ilmu Komputer Universitas Negeri Medan, menampilkan profil, keahlian, portofolio, dan kontak.">
+
+  <meta property="og:title" content="Siti Aulya Azahra - Landing Page Pribadi">
+  <meta property="og:description" content="Portofolio pribadi mahasiswa Ilmu Komputer UNIMED.">
+  <meta property="og:image" content="images/preview.jpg">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-header_title">Siti Aulya Azahra</h1>
+    <p class="site-header_subtitle">Mahasiswa Ilmu Komputer - Universitas Negeri Medan</p>
+
+    <nav class="site-nav">
+      <ul class="site-nav_list">
+        <li class="site-nav_item"><a class="site-nav_link" href="#about">Tentang</a></li>
+        <li class="site-nav_item"><a class="site-nav_link" href="#skills">Keahlian</a></li>
+        <li class="site-nav_item"><a class="site-nav_link" href="#portfolio">Portofolio</a></li>
+        <li class="site-nav_item"><a class="site-nav_link" href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <section class="section section--about" id="about">
+      <h2 class="section_title">Tentang Saya</h2>
+
+      <figure class="profile-figure">
+        <img class="profile-figure_image" src="profil.jpeg" alt="Foto profil" width="200" height="300">
+        <figcaption class="profile-figure__caption">Siti Aulya Azahra, mahasiswa semester 1 Ilmu Komputer UNIMED.</figcaption>
+      </figure>
+
+      <p class="section_text">
+        Saya adalah mahasiswa baru Program Studi Ilmu Komputer di Universitas Negeri Medan (UNIMED).
+        Saya tertarik pada pengembangan web.
+      </p>
+
+      <p class="section_text">
+        Halaman ini dibuat pada <time datetime="2026-08-23">23 Agustus 2026</time> tugas mata kuliah Pemrograman Web.
+      </p>
+
+      <div class="info-block">
+        <h3 class="info-block_title">Data Diri</h3>
+        <dl class="info-list">
+          <div class="info-list_row">
+            <dt class="info-list_label">Nama</dt>
+            <dd class="info-list_value">Siti Aulya Azahra</dd>
+          </div>
+          <div class="info-list_row">
+            <dt class="info-list_label">NIM</dt>
+            <dd class="info-list_value">4251250009</dd>
+          </div>
+          <div class="info-list_row">
+            <dt class="info-list_label">Tanggal Lahir</dt>
+            <dd class="info-list_value"><time datetime="2007-01-01">21 Desember 2006</time></dd>
+          </div>
+          <div class="info-list_row">
+            <dt class="info-list_label">Fakultas</dt>
+            <dd class="info-list_value">Matematika dan Ilmu Pengetahuan Alam (FMIPA)</dd>
+          </div>
+          <div class="info-list_row">
+            <dt class="info-list_label">Jurusan</dt>
+            <dd class="info-list_value">Matematika</dd>
+          </div>
+          <div class="info-list_row">
+            <dt class="info-list_label">Program Studi</dt>
+            <dd class="info-list_value">Ilmu Komputer</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="info-block">
+        <h3 class="info-block_title">Riwayat Pendidikan</h3>
+        <ol class="timeline">
+          <li class="timeline_item">
+            <span class="timeline_level">SMP</span>
+            <span class="timeline_name">MTS SWASTA AL-IHSAN</span>
+          </li>
+          <li class="timeline_item">
+            <span class="timeline_level">SMK</span>
+            <span class="timeline_name">SMK SWASTA AL-FATTAH 2 MEDAN</span>
+          </li>
+          <li class="timeline_item">
+            <span class="timeline_level">Kuliah</span>
+            <span class="timeline_name">Universitas Negeri Medan</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--skills" id="skills">
+      <h2 class="section_title">Keahlian yang lagi dipelajari</h2>
+
+      <div class="skill-list">
+        <article class="skill-card">
+          <h3 class="skill-card_title">Bahasa Pemrograman</h3>
+          <p class="skill-card_text">HTML5, CSS3, Java, dan sedang belajar JavaScript.</p>
+        </article>
+
+        <article class="skill-card">
+          <h3 class="skill-card_title">Tools & Teknologi</h3>
+          <p class="skill-card_text">GitHub, MySQL, XAMPP.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--portfolio" id="portfolio">
+      <h2 class="section_title">Portofolio</h2>
+
+      <div class="portfolio-list">
+        <article class="portfolio-card">
+          <h3 class="portfolio-card_title">SELS - Sistem Manajemen Toko Retail</h3>
+          <p class="portfolio-card_text">Aplikasi console berbasis Java dengan MySQL, JDBC, dan pola desain Singleton.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <h3 class="portfolio-card_title">Vector Explorer</h3>
+          <p class="portfolio-card_text">Website edukasi interaktif untuk belajar matematika vektor.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <h2 class="section_title">Kontak Saya</h2>
+
+      <div class="info-block">
+        <h3 class="info-block_title">Hubungi Saya</h3>
+        <ul class="contact-links">
+          <li class="contact-links_item">
+            <span class="contact-links_label">Email</span>
+            <a class="contact-links_link" href="mailto:sitiaulya2b@gmail.com">sitiaulya2b@gmail.com</a>
+          </li>
+          <li class="contact-links_item">
+            <span class="contact-links_label">GitHub</span>
+            <a class="contact-links_link" href="https://github.com/sitiaulya2b-boop" target="_blank" rel="noopener">github.com/sitiaulya2b-boop</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="nama">Nama Lengkap</label>
+          <input class="contact-form_input" type="text" id="nama" name="nama" required minlength="3" placeholder="Masukkan nama Anda">
+        </div>
+
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="email">Email</label>
+          <input class="contact-form_input" type="email" id="email" name="email" required placeholder="nama@email.com">
+        </div>
+
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="tanggal_lahir">Tanggal Lahir</label>
+          <input class="contact-form_input" type="date" id="tanggal_lahir" name="tanggal_lahir">
+        </div>
+
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="warna_favorit">Warna Favorit</label>
+          <input class="contact-form_input contact-form_input--color" type="color" id="warna_favorit" name="warna_favorit" value="#4a90e2">
+        </div>
+
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="tingkat_minat">Tingkat Ketertarikan pada Web Development (1-10)</label>
+          <input class="contact-form_input contact-form__input--range" type="range" id="tingkat_minat" name="tingkat_minat" min="1" max="10" value="5">
+        </div>
+
+        <div class="contact-form_group">
+          <label class="contact-form_label" for="pesan">Pesan</label>
+          <textarea class="contact-form_textarea" id="pesan" name="pesan" rows="4" required placeholder="Tulis pesan Anda di sini"></textarea>
+        </div>
+
+        <button class="contact-form_button" type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+  </main>
+
+  <aside class="site-aside">
+    <h2 class="site-aside_title">Info Tambahan</h2>
+    <p class="site-aside_text">"Belajar tidak mengenal batas usia maupun waktu." - Kutipan favorit saya.</p>
+  </aside>
+
+  <footer class="site-footer">
+    <p class="site-footer_text">&copy; <time datetime="2026">2026</time> Siti Aulya Azahra. Semua hak dilindungi.</p>
+  </footer>
+
+</body>
+</html>
